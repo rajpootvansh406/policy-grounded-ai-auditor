@@ -1,0 +1,22 @@
+# Environment variables (contains secrets)
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Vector DB local storage
+chroma_db/
+
+# OS junk
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data outputs (keep raw synthetic data, ignore generated results if large)
+*.csv
+!data/**/*.csv
